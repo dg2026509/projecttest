@@ -1,0 +1,36 @@
+Web VPython 3.2
+local_light(pos=vec(0, 0, 0), color=color.orange)
+sun=sphere(pos=vec(0,0,0), color=vec(1, 0.7, 0.3), radius=300, emissive=True)  
+ring(pos=vec(0,0,0), radius=600,thickness = 10)
+ring(pos=vec(0,0,0), radius=590,thickness = 10)
+ring(pos=vec(0,0,0), radius=580,thickness = 10)
+ring(pos=vec(0,0,0), radius=570,thickness = 10)
+ring(pos=vec(0,0,0), radius=560,thickness = 10)
+ring(pos=vec(0,0,0), radius=550,thickness = 10)
+ring(pos=vec(0,0,0), radius=540,thickness = 10)
+ring(pos=vec(0,0,0), radius=610,thickness = 10)
+ring(pos=vec(0,0,0), radius=620,thickness = 10)
+ring(pos=vec(0,0,0), radius=630,thickness = 10)
+ring(pos=vec(0,0,0), radius=640,thickness = 10)
+ring(pos=vec(0,0,0), radius=650,thickness = 10)
+ring(pos=vec(0,0,0), radius=660,thickness = 10)
+ring(pos=vec(0,0,0), radius=670,thickness = 10)
+ring(pos=vec(0,0,0), radius=680,thickness = 10)
+ring(pos=vec(0,0,0), radius=690,thickness = 10)
+ring(pos=vec(0,0,0), radius=700,thickness = 10)
+ring(pos=vec(0,0,0), radius=710,thickness = 10)
+ring(pos=vec(0,0,0), radius=720,thickness = 10)
+ring(pos=vec(0,0,0), radius=790,thickness = 10)
+ring(pos=vec(0,0,0), radius=800,thickness = 10)
+ring(pos=vec(0,0,0), radius=810,thickness = 10)
+ring(pos=vec(0,0,0), radius=820,thickness = 10)
+ring(pos=vec(0,0,0), radius=830,thickness = 10)
+ring(pos=vec(0,0,0), radius=840,thickness = 10)
+
+
+titan=sphere(pos=vec(1800,0,0), radius=33, color=vec(0.3,0.3,1))
+t=0
+while True :
+    rate(500)
+    t+=0.004
+    titan.pos = vec (1000*cos(t), 1000*sin(t), t)
